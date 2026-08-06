@@ -1,3 +1,4 @@
+# أفاق مستقبلية
 # Tanweer Core & 3D Acoustic Positioning System 🚀
 
 An autonomous, ultra-lightweight, and human-led open-source project for 3D acoustic localization and voice tracking. It features the breakthrough "Tanweer" algorithm, operating completely in the time domain without relying on Fourier Transforms (FFT), making it tailored for low-power embedded processors like the RP2040.
