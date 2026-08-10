@@ -1,5 +1,6 @@
 # 🤖 AI-Human Collaboration: مشروع Mouth Sound Localization
-NAJIB MOHAMMED AL-AMIR AND WALID HASSAN MOHAMMAD AL-MOTAWAKIL
+NAJIB MOHAMMED AL-AMIR , WALID HASSAN MOHAMMAD AL-MOTAWAKIL
+تم تنظيم المحادثة الذكاء الاصطناعي الذي تمت المناقشة معه
 
 ## 📖 قصة المشروع
 
