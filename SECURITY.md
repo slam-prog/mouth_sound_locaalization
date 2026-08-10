@@ -7,7 +7,8 @@
 إذا اكتشفت ثغرة أمنية، يرجى اتباع الخطوات التالية:
 
 ### 📧 اتصل بنا
-- Email: [YOUR_EMAIL@example.com]
+- Email:walidddhony@gmail.com
+
 - Subject: [SECURITY] وصف موجز
 
 ### 📝 في تقريرك
