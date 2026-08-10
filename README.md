@@ -159,17 +159,16 @@ mouth-sound-localization/
 
 ## 🙏 الشكر والتقدير
 
-- **الفكرة الأصلية**: المستخدم
+- **الفكرة الأصلية**: NAJIB MOHAMMED AL-AMIR
 - **التطوير والمحاكاة**: Perplexity AI (مساعد ذكي)
 - **المساهمون**: [أضف مساهمين هنا]
 
 ## 📬 التواصل
 
 للأسئلة أو الشراكات التجارية:
-- Email: your.email@example.com
-- LinkedIn: [رابط]
-- Twitter: [@yourhandle]
-
+- Email: 
+- LinkedIn: 
+- Twitter: 
 ## 🔮 المستقبل
 
 - [ ] دعم 100+ لغة
