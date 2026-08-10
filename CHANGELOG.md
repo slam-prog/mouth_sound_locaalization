@@ -13,7 +13,7 @@
 - نموذج عمل استراتيجي
 
 ### 🤝 مساهمون
-- **الفكرة الأصلية **: NAJIB MOHAMMED AL-AMIR AND DR:WALID AL-MTWAKL
+- **الفكرة الأصلية **: NAJIB MOHAMMED AL-AMIR AND WALID HASSAN MOHAMMAD AL-MOTAWAKIL
 - **التطوير**: Perplexity AI (مساعد ذكي)
 
 ### 📊 إحصائيات
