@@ -1,0 +1,43 @@
+site_name: Mouth Sound Localization
+site_description: نظام تحديد موقع الصوت من الفم باستخدام نهج نسبى
+site_author: YOUR_USERNAME
+site_url: https://YOUR_USERNAME.github.io/mouth-sound-localization/
+
+repo_name: mouth-sound-localization
+repo_url: https://github.com/YOUR_USERNAME/mouth-sound-localization
+
+theme:
+  name: material
+  language: ar
+  direction: rtl
+  palette:
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - search.highlight
+    - search.share
+
+nav:
+  - الرئيسية: index.md
+  - التثبيت: installation.md
+  - مرجع API: api_reference.md
+  - نموذج العمل: business_model.md
+  - المساهمة: contributing.md
+
+plugins:
+  - search
+  - mkdocstrings
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/YOUR_USERNAME/mouth-sound-localization

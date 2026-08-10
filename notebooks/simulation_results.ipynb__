@@ -1,0 +1,62 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# 📊 تحليل نتائج المحاكاة\n",
+    "\n",
+    "هذا الملف يحتوي على تحليل تفاعلي لنتائج محاكاة النظام."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import numpy as np\n",
+    "import matplotlib.pyplot as plt\n",
+    "from src.simulation import run_simulation\n",
+    "\n",
+    "# تشغيل المحاكاة\n",
+    "results = run_simulation(num_sources=100, verbose=False)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# تحليل الأخطاء\n",
+    "errors = [r['error'] for r in results if r['error'] is not None]\n",
+    "\n",
+    "plt.figure(figsize=(10, 6))\n",
+    "plt.hist(errors, bins=20, edgecolor='black', alpha=0.7)\n",
+    "plt.xlabel('الخطأ (ملم)')\n",
+    "plt.ylabel('التكرار')\n",
+    "plt.title('توزيع أخطاء تحديد الموقع')\n",
+    "plt.grid(True, alpha=0.3)\n",
+    "plt.show()\n",
+    "\n",
+    "print(f'متوسط الخطأ: {np.mean(errors)*1000:.2f} ملم')\n",
+    "print(f'الوسيط: {np.median(errors)*1000:.2f} ملم')\n",
+    "print(f'90% من الحالات: < {np.percentile(errors, 90)*1000:.2f} ملم')"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "name": "python",
+   "version": "3.8.0"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}

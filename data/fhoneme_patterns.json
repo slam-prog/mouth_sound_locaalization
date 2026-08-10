@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "version": "0.1.0",
+    "description": "أنماط نسببية للأحرف الصوتية",
+    "created_by": "Perplexity AI (مساعد ذكي)",
+    "based_on_idea": "مستخدم"
+  },
+  "languages": {
+    "ar": {
+      "name": "العربية",
+      "phonemes": [
+        {
+          "symbol": "ب",
+          "name": "baa",
+          "pattern": [1.0, 1.95, 1.97],
+          "region": "شفوي"
+        },
+        {
+          "symbol": "ت",
+          "name": "taa",
+          "pattern": [1.0, 2.10, 1.85],
+          "region": "لساني"
+        }
+      ]
+    },
+    "en": {
+      "name": "English",
+      "phonemes": [
+        {
+          "symbol": "b",
+          "name": "bee",
+          "pattern": [1.0, 1.95, 1.97],
+          "region": "labial"
+        },
+        {
+          "symbol": "t",
+          "name": "tee",
+          "pattern": [1.0, 2.10, 1.85],
+          "region": "alveolar"
+        }
+      ]
+    }
+  }
+}

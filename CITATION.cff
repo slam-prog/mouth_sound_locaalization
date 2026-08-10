@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Mouth Sound Localization System"
+abstract: "نظام تحديد موقع الصوت من الفم باستخدام نهج نسبى (TDOA)"
+authors:
+  - family-names: "YOUR_LAST_NAME"
+    given-names: "YOUR_FIRST_NAME"
+    orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+    affiliation: "Your Affiliation"
+  - family-names: "AI"
+    given-names: "Perplexity"
+    affiliation: "Perplexity AI"
+    note: "مساعد ذكي - توليد الكود والمحاكاة"
+
+repository-code: "https://github.com/YOUR_USERNAME/mouth-sound-localization"
+url: "https://github.com/YOUR_USERNAME/mouth-sound-localization"
+version: "0.1.0"
+doi: "10.0000/zenodo.xxxxx"  # سيتم إنشاؤه عند الرفع
+date-released: "2026-08-10"
+license: "MIT"
+
+keywords:
+  - "sound localization"
+  - "TDOA"
+  - "speech recognition"
+  - "python"
+  - "audio processing"
+
+preferred-citation: |
+  YOUR_FIRST_NAME YOUR_LAST_NAME (2026). 
+  Mouth Sound Localization System (Version 0.1.0) [Computer software]. 
+  GitHub. https://github.com/YOUR_USERNAME/mouth-sound-localization
+  
+  Developed with assistance from Perplexity AI.
