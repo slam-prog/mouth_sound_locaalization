@@ -171,7 +171,7 @@ mouth-sound-localization/
 
 ## 🙏 الشكر والتقدير
 
-- **الفكرة الأصلية**: نجيب محمد الامير
+- **الفكرة الأصلية**: NAJIB MOHAMMED AL-AMIR AND WALID HASSAN MOHAMMAD AL-MOTAWAKIL
 - **التطوير والمحاكاة**: Perplexity AI (مساعد ذكي)
 - **المساهمون**: [أضف مساهمين هنا]
 
