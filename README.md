@@ -178,7 +178,7 @@ mouth-sound-localization/
 ## 📬 التواصل
 
 للأسئلة أو الشراكات التجارية:
-- Email: 6236@ymail.ye
+- Email: walidddhony@gmail.com
 - LinkedIn: لم يتم انشائة بعد
 - Twitter: لم يتم انشائة بعد
 ## 🔮 المستقبل
