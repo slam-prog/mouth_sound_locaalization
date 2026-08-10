@@ -16,7 +16,8 @@ class AudioCapture:
         device: جهاز التسجيل (اختياري)
     """
     
-    def __init__(self, channels: int = 4, sample_rate: int = 192000, device: Optional[int] = None):
+    def __init__(self, channels: int = 4, sample_rate: int = 384000, device: Optional[int] = None):
+        # تغيير الافتراضي من 192000 إلى 384000
         self.channels = channels
         self.sample_rate = sample_rate
         self.device = device

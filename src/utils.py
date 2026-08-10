@@ -5,6 +5,40 @@
 import numpy as np
 from typing import Tuple
 
+def wiener_denoise(signal, noise_estimate=None):
+    """
+    Wiener Filter لتقليل الضوضاء
+    
+    Args:
+        signal: الإشارة الصوتية
+        noise_estimate: تقدير الضوضاء (اختياري)
+    
+    Returns:
+        إشارة منزوعة الضوضاء
+    """
+    from scipy.fft import fft, ifft
+    
+    # حساب FFT
+    signal_fft = fft(signal)
+    
+    # تقدير الضوضاء إذا لم يُقدم
+    if noise_estimate is None:
+        # استخدام بداية الإشارة كتقدير للضوضاء
+        noise_estimate = signal[:len(signal)//10]
+    
+    noise_fft = fft(noise_estimate, len(signal))
+    
+    # حساب Wiener Gain
+    signal_power = np.abs(signal_fft)**2
+    noise_power = np.abs(noise_fft)**2
+    wiener_gain = signal_power / (signal_power + noise_power + 1e-10)
+    
+    # تطبيق الفلتر
+    denoised_fft = signal_fft * wiener_gain
+    denoised_signal = ifft(denoised_fft).real
+    
+    return denoised_signal
+
 def calculate_distance(pos1: np.ndarray, pos2: np.ndarray) -> float:
     """حساب المسافة بين نقطتين"""
     return np.linalg.norm(pos1 - pos2)
