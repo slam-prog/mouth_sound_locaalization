@@ -9,7 +9,7 @@
 
 ### 2. الاستنساخ (Clone)
 ```bash
-git clone https://github.com/YOUR_USERNAME/mouth-sound-localization.git
+git clone https://github.com/slam-prog/mouth-sound-localization.git
 cd mouth-sound-localization
 ```
 
