@@ -6,7 +6,7 @@ Mouth Sound Localization System
 """
 
 __version__ = "0.1.0"
-__author__ = "YOUR_USERNAME"
+__author__ = "slam_prog"
 
 from .audio_capture import AudioCapture
 from .tdoa_calculation import calculate_tdoa, gcc_phat
